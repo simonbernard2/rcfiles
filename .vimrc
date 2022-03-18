@@ -16,6 +16,7 @@ Plug 'itchyny/lightline.vim'
 Plug 'dikiaap/minimalist'
 Plug 'evanleck/vim-svelte', {'branch': 'main'}
 Plug 'mattn/emmet-vim'
+Plug 'preservim/nerdtree'
 " List ends here. Plugins become visible to Vim after this call.
 call plug#end()
 
@@ -23,3 +24,5 @@ set laststatus=2
 let g:python_highlight_all = 1
 set background=dark
 colorscheme minimalist 
+
+nnoremap <C-n> :NERDTree<CR>
